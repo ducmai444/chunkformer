@@ -1,0 +1,214 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+
+# Model checkpoints và outputs
+output/
+checkpoints/
+models/
+*.pkl
+*.joblib
+
+# Data files
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.tsv
+*.csv
+*.json
+*.txt
+data/
+datasets/
+wav_files/
+audio_files/
+
+# SentencePiece models
+*.model
+*.vocab
+spm.*
+
+# Logs và monitoring
+logs/
+tensorboard_logs/
+wandb/
+*.log
+*.out
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Large files (>100MB)
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Config files with sensitive data
+config.yaml
+*.yaml
+!example_config.yaml
+
+# Training artifacts
+runs/
+experiments/
+results/
+
+# Cache
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Specific to ASR projects
+*.ark
+*.scp
+*.fbank
+*.mfcc
+*.spec
+*.npy
+*.npz
+
+# Hugging Face cache
+.cache/huggingface/
+transformers_cache/
+
+# Weights & Biases
+wandb/
+
+# MLflow
+mlruns/
+
+# DVC
+.dvc/
+dvc.lock
+
+# Git LFS
+.gitattributes
+
+# Local development
+local/
+dev/
+test_outputs/
+
+# Backup files
+backup/
+*.backup
+*.old
+
+# Archive files
+archive/
+*.tar
+*.gz
+*.bz2
+
+# Large model files (if using Git LFS)
+*.bin
+*.safetensors
+*.onnx
+*.pb
+*.tflite
+*.mlmodel
+
+# Exclude specific directories but keep structure
+!output/.gitkeep
+!data/.gitkeep
+!models/.gitkeep
+!checkpoints/.gitkeep
+
+# Keep example files
+!example_*.py
+!sample_*.py
+!test_*.py
+!README.md
+!requirements.txt
+!setup.py
+!*.ipynb
